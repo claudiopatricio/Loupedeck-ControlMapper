@@ -51,7 +51,7 @@
             var client = new RestClient($"http://{this._ip}:8888");
             var request = new RestRequest("/api/ControlMapper/GetRoles", Method.Get);
             var queryResult = client.Execute<List<String>>(request).Data;
-            return queryResult;
+            return queryResult ?? new List<String>(0);
         }
 
         private void StartControlMapperRole(String role)

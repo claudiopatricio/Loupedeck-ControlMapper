@@ -11,6 +11,8 @@ You can also compile yourself, fork, edit, make your own features, distribute, w
 # Changelog
 * 0.3
   * First public release
+* 0.4
+  * Fixed bug when loupedeck was launched before Simhub
 
 # Buy me a coffee
 If you like my work and want to contribute, check my [Ko-Fi](https://ko-fi.com/anjo2)
